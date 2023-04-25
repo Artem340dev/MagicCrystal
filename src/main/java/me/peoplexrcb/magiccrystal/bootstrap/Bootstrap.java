@@ -54,7 +54,6 @@ public class Bootstrap extends JavaPlugin {
 
     @Override
     public ChunkGenerator getDefaultWorldGenerator(String worldName, String id) {
-        System.out.println("Plugin statement is " + entryPoint);
         if (worldName != "world") return super.getDefaultWorldGenerator(worldName, id);
         return generator;
     }
