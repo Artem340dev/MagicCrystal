@@ -1,0 +1,4 @@
+name: MagicCrystal
+version: '1.0-SNAPSHOT'
+main: me.peoplexrcb.magiccrystal.bootstrap.Bootstrap
+api-version: 1.16
