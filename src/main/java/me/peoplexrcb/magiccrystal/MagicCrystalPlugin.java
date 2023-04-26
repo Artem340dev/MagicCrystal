@@ -22,6 +22,7 @@ public class MagicCrystalPlugin {
     static MagicCrystalPlugin instance;
 
     @Getter
+    @Inject
     Plugin plugin;
 
     @Getter
